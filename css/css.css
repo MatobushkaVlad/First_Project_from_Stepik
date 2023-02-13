@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+.header{
+    background-image: url(../images/header_img.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #fff;
+
+    padding: 29px 80px;
+}
+.menu__logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 36px;
+    color: #000;
+}
+.menu__logo:hover{
+    text-decoration: underline;
+}
+.menu__list{
+    display: flex;
+    align-items: center;
+}
+.menu__item{
+    list-style: none;
+    margin: 0 46px;
+}
+.link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 24px;
+    color: #000;
+}
+.menu__item:hover{
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0 39px;
+}
+
+.header__content{
+    height: 622px;
+    display: flex;
+    justify-content: center;
+}
+.header__content>.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header__title{
+    font-weight: 700;
+    font-size: 60px;
+    color: #fff;
+}
+.line{
+    width: 80px;
+    height: 10px;
+    background-color: #817070;
+}
