@@ -76,3 +76,148 @@ body{
     height: 10px;
     background-color: #817070;
 }
+
+.story{
+    height: 632px;
+}
+.story__body{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 123px 59px 80px;
+}
+.story__header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.story__title{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 36px;
+    color: #000;
+}
+.story__main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.story__img{
+    width: 600px;
+    height: 400px;
+}
+.story__text{
+    margin-left: 40px;
+    width: 300;
+    font-size: 20px;
+}
+
+.blog{
+    height: 711px;
+    background-color: #EFEFEF;
+}
+.blog__body{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 103px 65px 103px;
+}
+.blog__header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 59px;
+}
+.blog__title{
+    font-weight: 500;
+    font-size: 36px;
+    color: #000;
+}
+.blog__column{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.blog__item{
+    width: 325px;
+    height: 434px;
+    background-color: #fff;
+    padding: 20px;
+}
+.blog__item:hover{
+    box-shadow: 2px 4px 5px #817070;
+}
+.blog_item__title{
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 24px;
+}
+.blog__item__img{
+    width: 325px;
+    height: 216px;
+    margin-bottom: 24px;
+}
+.blog__item__text{
+    width: 325px;
+    height: 108px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000;
+}
+
+.subscribe{
+    height: 337px;
+    background-color: #817070;
+}
+.subscribe__body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+}
+.subscribe__header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.subscribe__title{
+    font-weight: 500;
+    font-size: 36px;
+    color: #fff;
+}
+.subscribe__input{
+    margin-bottom: 28px;
+}
+.subscribe__input>input{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #fff;
+    background: #817070;
+    text-align: center;
+    padding: 6px 63px 13px 60px;
+    border: 3px solid #fff;
+}
+.subscribe__input__button{
+    display: flex;
+    justify-content: center;
+}
+.subscribe__input__button>button{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 13px 34px;
+    color: #817070;
+}
+
+.footer{
+    height: 44px;
+}
+.footer__body{
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+}
+.footer__text{
+    font-weight: 300;
+    font-size: 20px;
+    color: #000;
+}
